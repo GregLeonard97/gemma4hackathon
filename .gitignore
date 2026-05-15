@@ -1,0 +1,93 @@
+# Data - UCLH-derived content, must not be committed
+/data/
+/data/guidelines/
+/data/extracted_tables/
+/data/chroma_db/
+/data/chroma_db_backup*/
+/data/session_logs/
+
+# Evaluation framework - UCLH-derived test cases
+/eval/
+
+# iOS-side derived resources
+GuidelineAssistant/GuidelineAssistant/Resources/Guidelines/
+GuidelineAssistant/GuidelineAssistant/Resources/extracted_tables/
+GuidelineAssistant/GuidelineAssistant/Resources/guidelines.db
+GuidelineAssistant/GuidelineAssistant/Resources/codebook.json
+GuidelineAssistant/GuidelineAssistant/Resources/BGESmall.mlpackage/
+
+# Model weights
+*.safetensors
+*.gguf
+models/
+
+# Build artefacts
+.derived/
+.derived*/
+build/
+build-sim/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+Pods/
+.swiftpm/build/
+.swiftpm/configuration/
+*.ipa
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv*/
+*.egg-info/
+.pytest_cache/
+
+# macOS
+.DS_Store
+._*
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+backups/
+
+# Personal handoff and planning documents
+*handoff*.md
+*investigation*.md
+*execution*.md
+*_plan_*.md
+*diagnostic*.md
+ios_handoff.md
+journal.txt
+
+# Keep the repo minimal: only public-facing root markdown
+/*.md
+!/README.md
+!/WRITEUP.md
+
+# Legacy local docs and utilities not part of public submission
+*.docx
+frontend-handoff/
+fetch_repos.py
+inspect_repos.py
+OUTDATEDtest_generation.py
+requirements.txt
+
+# Local app-side scratch outputs
+GuidelineAssistant/data/
+GuidelineAssistant/SmokeHarness/
+GuidelineAssistant/temp_mlx/
+GuidelineAssistant/sample_output.txt
+GuidelineAssistant/.derived*/
+GuidelineAssistant/build/
+GuidelineAssistant/build-sim/
+
+# Environment
+.env
+.env.local

@@ -1,0 +1,8 @@
+{
+  "cls_token_id": 101,
+  "sep_token_id": 102,
+  "pad_token_id": 0,
+  "unk_token_id": 100,
+  "max_length": 512,
+  "do_lower_case": true
+}

@@ -1,0 +1,9 @@
+# Recommended interpreter for this stack: Python 3.11 on macOS.
+# Python 3.14 currently pulls unsupported nightly builds for some packages.
+chromadb>=0.4.22
+coremltools>=7.2
+numpy>=1.26.0
+scipy>=1.11.0
+torch>=2.0.0
+transformers>=4.38.0
+tqdm>=4.66.0
