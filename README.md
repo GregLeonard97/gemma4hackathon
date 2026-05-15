@@ -23,7 +23,7 @@ NeoGuide is a clinical retrieval-augmented generation (RAG) system for point-of-
 
 ## Architecture
 
-![NeoGuide architecture](docs/figures/architecture.svg)
+Architecture details are documented in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 The system has two stages: a Mac resource build pipeline and an iOS runtime pipeline. Mac-side scripts ingest PDF guidelines, extract text and tables, and produce app resources (embedding model assets plus vector database artifacts). On device, the Swift app embeds the query, retrieves top-k chunks, and performs grounded generation with citation metadata exposed in the UI.
 

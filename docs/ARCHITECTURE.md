@@ -1,7 +1,5 @@
 # NeoGuide Architecture
 
-![NeoGuide architecture](figures/architecture.svg)
-
 NeoGuide is split into two execution domains: a Mac-side resource build pipeline and an iOS on-device runtime pipeline.
 
 ## 1) Mac-side build pipeline
