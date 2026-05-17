@@ -1,4 +1,4 @@
-# NeoGuide - On-Device Clinical Guideline RAG for Hospital Clinicians
+# On-Device Clinical Guideline RAG for Hospital Clinicians
 
 A native iOS assistant that answers guideline questions on-device with source-linked evidence, built to work under strict clinical privacy and connectivity constraints.
 
@@ -6,12 +6,7 @@ A native iOS assistant that answers guideline questions on-device with source-li
 
 ## What this is
 
-NeoGuide is a clinical retrieval-augmented generation (RAG) system for point-of-care guideline lookup on iPhone. It combines a Mac-side ingestion pipeline (PDF parsing, table extraction, vector indexing) with an on-device Swift app that retrieves relevant chunks and generates grounded natural-language answers. The app is designed for scenarios where cloud access is undesirable or restricted, and where clinicians need transparent traceability back to source documents. The architecture is corpus-agnostic: users can supply their own local guideline PDFs and rebuild resources for their institution.
-
-## Demo
-
-- Demo video: to be added before final submission
-- Representative app visuals are documented in the hackathon writeup: [WRITEUP.md](./WRITEUP.md)
+The app is a clinical retrieval-augmented generation (RAG) system for point-of-care guideline lookup on iPhone. It combines a Mac-side ingestion pipeline (PDF parsing, table extraction, vector indexing) with an on-device Swift app that retrieves relevant chunks and generates grounded natural-language answers. The app is designed for scenarios where cloud access is undesirable or restricted, and where clinicians need transparent traceability back to source documents. The architecture is corpus-agnostic: users can supply their own local guideline PDFs and rebuild resources for their institution.
 
 ## Key Features
 
